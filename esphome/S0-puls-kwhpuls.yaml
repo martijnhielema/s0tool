@@ -18,11 +18,11 @@ esp8266:
   restore_from_flash: true  
 
 dashboard_import:
-  package_import_url: github://huizebruin/s0tool/esphome/S0-puls-kwhpuls.yaml@main
+  package_import_url: git://gitlab.martijnhielema.nl/martijnhielema/s0tool-D6/esphome/S0-puls-kwhpuls.yaml@main
 
 packages:
   remote_package:
-    url: https://github.com/huizebruin/s0tool/
+    url: https://gitlab.martijnhielema.nl/martijnhielema/s0tool-D6/
     ref: main
     files:
       - esphome/components/basis.yaml
