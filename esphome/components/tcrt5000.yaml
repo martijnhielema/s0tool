@@ -1,6 +1,6 @@
 # Delen en bewerken mag maar laat deze eerste regels staan.
 # Bron : https://www.huizebruin.nl
-# Bron File : https://gitlab.martijnhielema.nl/martijnhielema/s0tool-D6/tree/main/esphome
+# Bron File : https://gitlab.martijnhielema.nl/martijnhielema/s0tool/tree/main/esphome
 # © Huizebruin.nl
 #  # ⬇ Enable Home Assistant API ⬇ # 
 api:

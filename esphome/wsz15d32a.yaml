@@ -1,6 +1,6 @@
 # Delen en bewerken mag maar laat deze eerste regels staan.
 # Bron : https://www.huizebruin.nl
-# Bron File : https://gitlab.martijnhielema.nl/martijnhielema/s0tool-D6/tree/main/esphome
+# Bron File : https://gitlab.martijnhielema.nl/martijnhielema/s0tool/tree/main/esphome
 # © Huizebruin.nl
 substitutions:
   name: s0tool-wsz15d32a
@@ -18,11 +18,11 @@ esp8266:
   restore_from_flash: true
 
 dashboard_import:
-  package_import_url: git://gitlab.martijnhielema.nl/martijnhielema/s0tool-D6/esphome/wsz15d32a.yaml@main
+  package_import_url: git://gitlab.martijnhielema.nl/martijnhielema/s0tool/esphome/wsz15d32a.yaml@main
 
 packages:
   remote_package:
-    url: https://gitlab.martijnhielema.nl/martijnhielema/s0tool-D6/
+    url: https://gitlab.martijnhielema.nl/martijnhielema/s0tool/
     ref: main
     files:
       - esphome/components/basis.yaml
